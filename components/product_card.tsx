@@ -11,7 +11,7 @@ const ProductCard = () => {
             alt=""
           />
           <div className="flex items-center justify-center transition-all ease-in-out duration-150 bg-red-800 hover:bg-red-700 w-full h-8">
-            <h1 className="text-center text-xs">Go</h1>
+            <h1 className="text-center text-white text-xs">Go</h1>
           </div>
         </div>
       </Link>
