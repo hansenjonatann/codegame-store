@@ -13,7 +13,7 @@ const routers = [
     href: "/",
   },
   {
-    label: "Midasbuy Events",
+    label: "Codegames Events",
     href: "/events",
   },
   {
@@ -39,10 +39,7 @@ export default function Navigation() {
             <Menu className="size-4" />
           </Button>
         </SheetTrigger>
-        <SheetContent
-          side={"left"}
-          className="px-2"
-        >
+        <SheetContent side={"left"} className="px-2">
           <nav className="flex flex-col space-y-4 pt-6">
             {routers.map((route) => (
               <Button
